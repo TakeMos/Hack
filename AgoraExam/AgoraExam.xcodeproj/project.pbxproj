@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EEF3D12C797E1A00014378 /* AgoraExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEF3D02C797E1A00014378 /* AgoraExamApp.swift */; };
+		38EEF3D32C797E1A00014378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEF3D22C797E1A00014378 /* ContentView.swift */; };
+		38EEF3D52C797E1B00014378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EEF3D42C797E1B00014378 /* Assets.xcassets */; };
+		38EEF3D82C797E1B00014378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EEF3D72C797E1B00014378 /* Preview Assets.xcassets */; };
+		38EEF3E02C797E9F00014378 /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3DF2C797E9F00014378 /* AIAEC */; };
+		38EEF3E22C797E9F00014378 /* AIAECLL in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3E12C797E9F00014378 /* AIAECLL */; };
+		38EEF3E42C797E9F00014378 /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3E32C797E9F00014378 /* AINS */; };
+		38EEF3E62C797E9F00014378 /* AINSLL in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3E52C797E9F00014378 /* AINSLL */; };
+		38EEF3E82C797E9F00014378 /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3E72C797E9F00014378 /* AudioBeauty */; };
+		38EEF3EA2C797F9800014378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEF3E92C797F9800014378 /* ViewController.swift */; };
+		38EEF3ED2C797FB500014378 /* ClearVision in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3EC2C797FB500014378 /* ClearVision */; };
+		38EEF3EF2C797FB500014378 /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3EE2C797FB500014378 /* ContentInspect */; };
+		38EEF3F12C797FB500014378 /* FaceCapture in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3F02C797FB500014378 /* FaceCapture */; };
+		38EEF3F32C797FB500014378 /* FaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3F22C797FB500014378 /* FaceDetection */; };
+		38EEF3F52C797FB500014378 /* LipSync in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3F42C797FB500014378 /* LipSync */; };
+		38EEF3F72C797FB500014378 /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3F62C797FB500014378 /* ReplayKit */; };
+		38EEF3F92C797FB500014378 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3F82C797FB500014378 /* RtcBasic */; };
+		38EEF3FB2C797FB500014378 /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3FA2C797FB500014378 /* SpatialAudio */; };
+		38EEF3FD2C797FB500014378 /* VideoAv1CodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3FC2C797FB500014378 /* VideoAv1CodecDec */; };
+		38EEF3FF2C797FB500014378 /* VideoAv1CodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF3FE2C797FB500014378 /* VideoAv1CodecEnc */; };
+		38EEF4012C797FB500014378 /* VideoCodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF4002C797FB500014378 /* VideoCodecDec */; };
+		38EEF4032C797FB500014378 /* VideoCodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF4022C797FB500014378 /* VideoCodecEnc */; };
+		38EEF4052C797FB500014378 /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF4042C797FB500014378 /* VirtualBackground */; };
+		38EEF4072C797FB500014378 /* VQA in Frameworks */ = {isa = PBXBuildFile; productRef = 38EEF4062C797FB500014378 /* VQA */; };
+		38EEF40B2C7982B600014378 /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEF40A2C7982B600014378 /* AgoraManager.swift */; };
+		38EEF40D2C79862700014378 /* MicrophonePermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEF40C2C79862700014378 /* MicrophonePermissionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EEF3CD2C797E1A00014378 /* AgoraExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EEF3D02C797E1A00014378 /* AgoraExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraExamApp.swift; sourceTree = "<group>"; };
+		38EEF3D22C797E1A00014378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38EEF3D42C797E1B00014378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EEF3D72C797E1B00014378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38EEF3E92C797F9800014378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38EEF4082C79822E00014378 /* AgoraExam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgoraExam.entitlements; sourceTree = "<group>"; };
+		38EEF4092C79823300014378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		38EEF40A2C7982B600014378 /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
+		38EEF40C2C79862700014378 /* MicrophonePermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophonePermissionManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EEF3CA2C797E1A00014378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EEF3F72C797FB500014378 /* ReplayKit in Frameworks */,
+				38EEF3ED2C797FB500014378 /* ClearVision in Frameworks */,
+				38EEF3E22C797E9F00014378 /* AIAECLL in Frameworks */,
+				38EEF3FB2C797FB500014378 /* SpatialAudio in Frameworks */,
+				38EEF4072C797FB500014378 /* VQA in Frameworks */,
+				38EEF3EF2C797FB500014378 /* ContentInspect in Frameworks */,
+				38EEF3F32C797FB500014378 /* FaceDetection in Frameworks */,
+				38EEF4032C797FB500014378 /* VideoCodecEnc in Frameworks */,
+				38EEF3E62C797E9F00014378 /* AINSLL in Frameworks */,
+				38EEF4052C797FB500014378 /* VirtualBackground in Frameworks */,
+				38EEF3FF2C797FB500014378 /* VideoAv1CodecEnc in Frameworks */,
+				38EEF3FD2C797FB500014378 /* VideoAv1CodecDec in Frameworks */,
+				38EEF3E02C797E9F00014378 /* AIAEC in Frameworks */,
+				38EEF3E82C797E9F00014378 /* AudioBeauty in Frameworks */,
+				38EEF3F52C797FB500014378 /* LipSync in Frameworks */,
+				38EEF3F12C797FB500014378 /* FaceCapture in Frameworks */,
+				38EEF3E42C797E9F00014378 /* AINS in Frameworks */,
+				38EEF4012C797FB500014378 /* VideoCodecDec in Frameworks */,
+				38EEF3F92C797FB500014378 /* RtcBasic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EEF3C42C797E1A00014378 = {
+			isa = PBXGroup;
+			children = (
+				38EEF3CF2C797E1A00014378 /* AgoraExam */,
+				38EEF3CE2C797E1A00014378 /* Products */,
+				38EEF3EB2C797FB500014378 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38EEF3CE2C797E1A00014378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EEF3CD2C797E1A00014378 /* AgoraExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EEF3CF2C797E1A00014378 /* AgoraExam */ = {
+			isa = PBXGroup;
+			children = (
+				38EEF4092C79823300014378 /* Info.plist */,
+				38EEF4082C79822E00014378 /* AgoraExam.entitlements */,
+				38EEF3D02C797E1A00014378 /* AgoraExamApp.swift */,
+				38EEF3D22C797E1A00014378 /* ContentView.swift */,
+				38EEF3D42C797E1B00014378 /* Assets.xcassets */,
+				38EEF3D62C797E1B00014378 /* Preview Content */,
+				38EEF3E92C797F9800014378 /* ViewController.swift */,
+				38EEF40A2C7982B600014378 /* AgoraManager.swift */,
+				38EEF40C2C79862700014378 /* MicrophonePermissionManager.swift */,
+			);
+			path = AgoraExam;
+			sourceTree = "<group>";
+		};
+		38EEF3D62C797E1B00014378 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38EEF3D72C797E1B00014378 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38EEF3EB2C797FB500014378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EEF3CC2C797E1A00014378 /* AgoraExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EEF3DB2C797E1B00014378 /* Build configuration list for PBXNativeTarget "AgoraExam" */;
+			buildPhases = (
+				38EEF3C92C797E1A00014378 /* Sources */,
+				38EEF3CA2C797E1A00014378 /* Frameworks */,
+				38EEF3CB2C797E1A00014378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraExam;
+			packageProductDependencies = (
+				38EEF3DF2C797E9F00014378 /* AIAEC */,
+				38EEF3E12C797E9F00014378 /* AIAECLL */,
+				38EEF3E32C797E9F00014378 /* AINS */,
+				38EEF3E52C797E9F00014378 /* AINSLL */,
+				38EEF3E72C797E9F00014378 /* AudioBeauty */,
+				38EEF3EC2C797FB500014378 /* ClearVision */,
+				38EEF3EE2C797FB500014378 /* ContentInspect */,
+				38EEF3F02C797FB500014378 /* FaceCapture */,
+				38EEF3F22C797FB500014378 /* FaceDetection */,
+				38EEF3F42C797FB500014378 /* LipSync */,
+				38EEF3F62C797FB500014378 /* ReplayKit */,
+				38EEF3F82C797FB500014378 /* RtcBasic */,
+				38EEF3FA2C797FB500014378 /* SpatialAudio */,
+				38EEF3FC2C797FB500014378 /* VideoAv1CodecDec */,
+				38EEF3FE2C797FB500014378 /* VideoAv1CodecEnc */,
+				38EEF4002C797FB500014378 /* VideoCodecDec */,
+				38EEF4022C797FB500014378 /* VideoCodecEnc */,
+				38EEF4042C797FB500014378 /* VirtualBackground */,
+				38EEF4062C797FB500014378 /* VQA */,
+			);
+			productName = AgoraExam;
+			productReference = 38EEF3CD2C797E1A00014378 /* AgoraExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EEF3C52C797E1A00014378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					38EEF3CC2C797E1A00014378 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 38EEF3C82C797E1A00014378 /* Build configuration list for PBXProject "AgoraExam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EEF3C42C797E1A00014378;
+			packageReferences = (
+				38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
+			productRefGroup = 38EEF3CE2C797E1A00014378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EEF3CC2C797E1A00014378 /* AgoraExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EEF3CB2C797E1A00014378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EEF3D82C797E1B00014378 /* Preview Assets.xcassets in Resources */,
+				38EEF3D52C797E1B00014378 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EEF3C92C797E1A00014378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EEF40D2C79862700014378 /* MicrophonePermissionManager.swift in Sources */,
+				38EEF3EA2C797F9800014378 /* ViewController.swift in Sources */,
+				38EEF3D32C797E1A00014378 /* ContentView.swift in Sources */,
+				38EEF40B2C7982B600014378 /* AgoraManager.swift in Sources */,
+				38EEF3D12C797E1A00014378 /* AgoraExamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38EEF3D92C797E1B00014378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38EEF3DA2C797E1B00014378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EEF3DC2C797E1B00014378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgoraExam/AgoraExam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgoraExam/Preview Content\"";
+				DEVELOPMENT_TEAM = 89S2Z5S7CX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgoraExam/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "A message that tells the user why the app is requesting access to the device’s microphone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.block.AgoraExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EEF3DD2C797E1B00014378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgoraExam/AgoraExam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgoraExam/Preview Content\"";
+				DEVELOPMENT_TEAM = 89S2Z5S7CX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgoraExam/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "A message that tells the user why the app is requesting access to the device’s microphone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.block.AgoraExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EEF3C82C797E1A00014378 /* Build configuration list for PBXProject "AgoraExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EEF3D92C797E1B00014378 /* Debug */,
+				38EEF3DA2C797E1B00014378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EEF3DB2C797E1B00014378 /* Build configuration list for PBXNativeTarget "AgoraExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EEF3DC2C797E1B00014378 /* Debug */,
+				38EEF3DD2C797E1B00014378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38EEF3DF2C797E9F00014378 /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAEC;
+		};
+		38EEF3E12C797E9F00014378 /* AIAECLL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAECLL;
+		};
+		38EEF3E32C797E9F00014378 /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINS;
+		};
+		38EEF3E52C797E9F00014378 /* AINSLL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINSLL;
+		};
+		38EEF3E72C797E9F00014378 /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AudioBeauty;
+		};
+		38EEF3EC2C797FB500014378 /* ClearVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ClearVision;
+		};
+		38EEF3EE2C797FB500014378 /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		38EEF3F02C797FB500014378 /* FaceCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceCapture;
+		};
+		38EEF3F22C797FB500014378 /* FaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceDetection;
+		};
+		38EEF3F42C797FB500014378 /* LipSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = LipSync;
+		};
+		38EEF3F62C797FB500014378 /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ReplayKit;
+		};
+		38EEF3F82C797FB500014378 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		38EEF3FA2C797FB500014378 /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SpatialAudio;
+		};
+		38EEF3FC2C797FB500014378 /* VideoAv1CodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoAv1CodecDec;
+		};
+		38EEF3FE2C797FB500014378 /* VideoAv1CodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoAv1CodecEnc;
+		};
+		38EEF4002C797FB500014378 /* VideoCodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecDec;
+		};
+		38EEF4022C797FB500014378 /* VideoCodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecEnc;
+		};
+		38EEF4042C797FB500014378 /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VirtualBackground;
+		};
+		38EEF4062C797FB500014378 /* VQA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EEF3DE2C797E9F00014378 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VQA;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 38EEF3C52C797E1A00014378 /* Project object */;
+}
